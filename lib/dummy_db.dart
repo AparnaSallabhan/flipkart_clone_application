@@ -1,3 +1,8 @@
+
+
+import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 class DummyDb{
   static const List languageData =[
     {
@@ -75,43 +80,43 @@ static const List ads1 =[
   //#2
   static const List circleGridData = [
      {
-      "image" : "assets/images/qrCode.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/de/b9/f7/deb9f7395d248c6b9b989d07d65b2005.jpg" ,
       "data" : "Scan & Pay" 
     },
      {
-      "image" : "assets/images/mobiles.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/94/b5/86/94b586a1c97ced61348cb263afa6661b.jpg" ,
       "data" : "Mobiles" 
     },
      {
-      "image" : "assets/images/fashion.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/16/98/91/169891d21c1f8786e08c83b7fa0bcf91.jpg" ,
       "data" : "Fashion" 
     },
      {
-      "image" : "assets/images/electronics.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/3b/9b/8e/3b9b8e9f4f20fa5b9e9b0391f98f4ad6.jpg" ,
       "data" : "Electronics" 
     },
      {
-      "image" : "assets/images/beauty.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/59/bf/8d/59bf8d064d6f781c51f5ca2454df9bd5.jpg" ,
       "data" : "Beauty" 
     },
      {
-      "image" : "assets/images/tv & appliances.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/33/8c/00/338c00d9dc7397aab1a52974c9303322.jpg" ,
       "data" : "TV & Appliances" 
     },
      {
-      "image" : "assets/images/home essentials.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/0c/5a/d7/0c5ad73c792517a266eabb46930be950.jpg" ,
       "data" : "Home Essentials" 
     },
      {
-      "image" : "assets/images/smart gadgets.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/04/0c/91/040c914be983c69e814c03a226d8ac5d.jpg" ,
       "data" : "Smart Gadgets" 
     },
      {
-      "image" : "assets/images/flights.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/ae/8a/4b/ae8a4bda5d8385b87e1bd3ccf57cfcdb.jpg" ,
       "data" : "Flights, Hotels & Buses " 
     },
      {
-      "image" : "assets/images/bikes.jpeg" ,
+      "image" : "https://i.pinimg.com/564x/ad/cc/58/adcc58575b830f8f01832b016ac2a3c3.jpg" ,
       "data" : "Bikes & Scooters" 
     },
   ];
@@ -163,17 +168,17 @@ static const List ads1 =[
   //#4
   static const List list4 = [
     {
-      "image": "assets/images/shirtt2.jpeg" ,
+      "image": "https://i.pinimg.com/564x/f7/5b/c1/f75bc1013b70b588df6d2c3375e08194.jpg" ,
       "data" : "Shirt" ,
       "price" : "1000" 
     },
      {
-      "image": "assets/images/pant1.jpeg" ,
+      "image": "https://i.pinimg.com/736x/89/7b/dd/897bdd51d704e8ae3a14d3b4a63a1c3d.jpg" ,
       "data" : "Pants" ,
       "price" : "1500" 
     },
      {
-      "image": "assets/images/frock2.jpeg" ,
+      "image": "https://i.pinimg.com/564x/c2/02/2b/c2022b4e12325afd6540223853708b5d.jpg" ,
       "data" : "Frock" ,
       "price" : "1999" 
     },
@@ -215,27 +220,27 @@ static const List ads1 =[
   static const List brandData = [
     {
       "prdctName" : "Super Coin" ,
-      "url" : " assets/images/supercoin.jpeg"
+      "url" : " https://i.pinimg.com/236x/36/89/cb/3689cba86df1ff7404b33a8be1520d89.jpg"
     },
     {
       "prdctName" : "Express store" ,
-      "url" : "assets/images/express_store.jpeg"
+      "url" : "https://i.pinimg.com/564x/40/60/bf/4060bf7ee3ca7637a713562ae13f1038.jpg"
     },
     {
       "prdctName" : "Pocket Bazaar" ,
-      "url" : " https://i.pinimg.com/564x/83/fc/75/83fc75c0252a03d89b8d6f6aa766e161.jpg"
+      "url" : "https://i.pinimg.com/564x/f5/e9/1c/f5e91c9901b63d1c65b1d93311b5e117.jpg "
     },
     {
       "prdctName" : "Spoyl Fashion" ,
-      "url" : " https://i.pinimg.com/564x/d9/da/f2/d9daf2c92912929954fdbbcf4b030b6b.jpg"
+      "url" : "https://i.pinimg.com/736x/05/05/fd/0505fd53e22be17b63eefa75cbe872b8.jpg "
     },
     {
       "prdctName" : "flipkart Pay" ,
-      "url" : " https://i.pinimg.com/564x/fd/13/7e/fd137eb7808b3eed66ce3ed7db37a456.jpg"
+      "url" : " https://i.pinimg.com/564x/04/de/1f/04de1f4f599353783598ed5fafb9fb13.jpg"
     },
     {
       "prdctName" : "Personal Loan" ,
-      "url" : " https://i.pinimg.com/564x/59/ae/68/59ae6871bdd8f8e6fb0c177ab7bafc26.jpg"
+      "url" : " https://i.pinimg.com/736x/e0/b0/18/e0b0187177abae643d52cd217b765b04.jpg"
     },
   ];
 //explore screen
@@ -377,8 +382,9 @@ static const List ads1 =[
   },
   {
     "imageUrl": "https://i.pinimg.com/564x/13/c3/32/13c33277086d89bb49d47deea3dd7ff1.jpg",
-    "brandName": "Champion",
+    
     "productName": "Reverse Weave Hoodie",
+    "brandName": "Champion",
     "prevPrice": "4499",
     "newPrice": "₹3499",
     "discount": "22% off",
@@ -386,8 +392,9 @@ static const List ads1 =[
   },
   {
     "imageUrl": "https://i.pinimg.com/564x/11/96/24/1196240aa7eb22a067fcf732af298f0e.jpg",
-    "brandName": "Hugo Boss",
+    
     "productName": "Double Breasted Wool Coat",
+    "brandName": "Hugo Boss",
     "prevPrice": "6999",
     "newPrice": "₹5999",
     "discount": "14% off",
@@ -395,8 +402,9 @@ static const List ads1 =[
   },
   {
     "imageUrl": "https://i.pinimg.com/564x/4f/49/01/4f490178bf9d3c111b0ded43b0abd5f7.jpg",
-    "brandName": "Ralph Lauren",
+   
     "productName": "Oxford Button-Down Shirt",
+     "brandName": "Ralph Lauren",
     "prevPrice": "5999",
     "newPrice": "₹4999",
     "discount": "17% off",
@@ -404,8 +412,9 @@ static const List ads1 =[
   },
   {
     "imageUrl": "https://i.pinimg.com/564x/e6/ae/8d/e6ae8d4522d44d70ba54c3c330d3f756.jpg",
-    "brandName": "Banana Republic",
+  
     "productName": "Merino Wool V-Neck Sweater",
+      "brandName": "Banana Republic",
     "prevPrice": "799",
     "newPrice": "₹599",
     "discount": "25% off",
@@ -440,6 +449,244 @@ static const List ads1 =[
   }
 
   ];
+
+  //account screen
+  static const List accountData1 = [
+    {
+      "icon" : FontAwesomeIcons.box,
+      "text" : "Orders"
+    },
+     {
+      "icon" : FontAwesomeIcons.heart,
+      "text" : "Wishlist"
+    },
+     {
+      "icon" : FontAwesomeIcons.gift,
+      "text" : "Coupons"
+    },
+     {
+      "icon" : FontAwesomeIcons.headset,
+      "text" : "Help Center"
+    },
+
+  ];
+  static const List creditdata = [
+    {
+      "icon" : Icons.payments_outlined,
+      "data1" : "Personal Loan",
+      "data2" : "Quick cash up to ₹10,00,000."
+    },
+      {
+      "icon" : Icons.currency_rupee_outlined,
+      "data1" : "Flipkart Pay Later",
+      "data2" : "instant credit up to ₹1 Lakh. Apply Now"
+    }
+  ];
+
+  static const List settingsData = [
+    {
+      "icon" :Icons.crop_square ,
+      "data1" : "Flipkart Plus" ,
+      
+    },
+    {
+      "icon" :Icons.person_2_outlined ,
+      "data1" : "Edit Profile" ,
+     
+    },
+    {
+      "icon" :Icons.wallet_sharp ,
+      "data1" : "Saved Credit / Debit & gift Cards" ,
+      
+    },
+    {
+      "icon" :Icons.location_on_outlined ,
+      "data1" : "Saved Addresses" ,
+   
+    },
+    {
+      "icon" :Icons.language_rounded,
+      "data1" : "Select Language" ,
+      
+    },
+    {
+      "icon" :Icons.edit_notifications_outlined ,
+      "data1" : "Notification Settings" ,
+      
+    },
+  ];
+
+  static const List activityData = [
+    {
+      "icon" :Icons.edit_document,
+      "data1" : "Reviews"
+    },
+     {
+      "icon" :Icons.question_answer_outlined,
+      "data1" : "Question & Answer"
+    }
+  ];
+  static const List offeringData = [
+    {
+      "image" : "https://i.pinimg.com/564x/3d/67/c6/3d67c6708b8fd9aba351cc74395d0284.jpg" ,
+      "data" : "10X Reward points",
+      "price" : "Apply Now"
+    },
+    {
+      "image" : "https://i.pinimg.com/564x/b7/97/b0/b797b0c9e025aaa6e7485ba2911cfbe0.jpg" ,
+      "data" : "Exciting Rewards",
+      "price" : "Apply Now"
+    },
+    {
+      "image" : "https://i.pinimg.com/564x/9f/f5/b7/9ff5b74cc8d63abceeee2c65c5a9c8d6.jpg" ,
+      "data" : "No Const EMIs",
+      "price" : "Apply Now"
+    }
+  ];
+
+  static const List feedbackData = [
+    {
+      "icon" : Icons.description_outlined,
+      "data1" : "Terms, Policies and Licenses"
+    },
+     {
+      "icon" : Icons.help_outline,
+      "data1" : "Browse FAQs"
+    }
+  ];
+
+  //Categories screen
+
+  static const List categoriesScreenData1 = [
+    {
+      "image" : "https://i.pinimg.com/564x/dc/6b/d0/dc6bd0280d5e242f421997468479abe5.jpg",
+      "data" : "Offer Zone"
+    },
+    {
+      "image" : "https://i.pinimg.com/564x/4f/47/92/4f479200831ea5a7594cdfeda453e68c.jpg",
+      "data" : "Rakhi Special Deals"
+    },
+    {
+      "image" : "https://i.pinimg.com/564x/40/60/bf/4060bf7ee3ca7637a713562ae13f1038.jpg",
+      "data" : "Express Store"
+    },
+    {
+      "image" : "https://i.pinimg.com/564x/fb/94/3d/fb943ddb9c40083a58bed06c4c674e7f.jpg",
+      "data" : "Pocket bazaar"
+    },
+    
+  ];
+  static const List categoriesScreenData2 = [
+    {
+      "image" : "https://i.pinimg.com/564x/da/eb/ea/daebea65ab879ea849ebb6d060cfd0ce.jpg",
+      "data" : "Flipkart green"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/1a/27/96/1a2796019f9dfd5a418b1bddfd16d457.jpg",
+      "data" : "International Brands"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/70/ff/71/70ff71118a485b9503ae7ea2a42bc29c.jpg",
+      "data" : "Luggagae & Accessories"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/ec/31/99/ec3199872e69229fd47a090b01946351.jpg",
+      "data" : "flipkart samarth"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/eb/d8/4a/ebd84aee9bd1feddce359d9803236f4b.jpg",
+      "data" : "Best deal on FK originals"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/23/2b/12/232b126bcea9ffcb09d9276c54f34a37.jpg",
+      "data" : "smart living"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/54/78/1d/54781db8f3c77b949c081998178e10cc.jpg",
+      "data" : "next gen brands"
+    }, 
+     
+  ];
+
+static const List categoriesScreenData3 = [
+   {
+      "image" : "https://i.pinimg.com/564x/fe/80/20/fe802018e74754e485334b29a1d4ff4d.jpg",
+      "data" : "Scan & pay"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/736x/40/2b/96/402b96ea42ffbbaf124d0b9dd13592e9.jpg",
+      "data" : "SuperCoin"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/1c/96/24/1c962494caa827f03c5666edf9371f8d.jpg",
+      "data" : "Coupons"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/736x/e8/f9/05/e8f905d5f5d7f84abf1eabbeaa8fc191.jpg",
+      "data" : "Bills & Recharges"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/236x/0d/72/a3/0d72a38e8e0b4ab38dc6db1879e51422.jpg",
+      "data" : "Flipkart Pay"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/e0/b0/18/e0b0187177abae643d52cd217b765b04.jpg",
+      "data" : "Personal Loan"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/b4/3c/b7/b43cb756ce00634dd01081522d83a685.jpg",
+      "data" : "Free credit score"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/7f/7f/ee/7f7fee82c263ca7538e810db7f0c00c5.jpg",
+      "data" : "fire drops"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/24/62/09/24620905f2c00040b9cae8d8e1dbd97e.jpg",
+      "data" : "become a seller"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/01/fe/f7/01fef796eaecb8d9ff41790ace32d88b.jpg",
+      "data" : "Live shop+"
+    }, 
+      {
+      "image" : "https://i.pinimg.com/564x/74/91/43/74914352aae274e66bb2b43023e99d53.jpg",
+      "data" : "view all"
+    }, 
+
+    
+];
+static const List data = [
+ {
+   "imageUrl": "https://i.pinimg.com/564x/11/96/24/1196240aa7eb22a067fcf732af298f0e.jpg",
+    
+    "productName": "Double Breasted Wool Coat",
+ },
+ { "imageUrl": "https://i.pinimg.com/564x/e6/ae/8d/e6ae8d4522d44d70ba54c3c330d3f756.jpg",
+  
+    "productName": "Merino Wool V-Neck Sweater",},
+    {
+      "imageUrl": "https://i.pinimg.com/564x/11/96/24/1196240aa7eb22a067fcf732af298f0e.jpg",
+    
+    "productName": "Double Breasted Wool Coat",
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/13/c3/32/13c33277086d89bb49d47deea3dd7ff1.jpg",
+    
+    "productName": "Reverse Weave Hoodie",
+    },
+     {
+      "imageUrl": "https://i.pinimg.com/564x/11/96/24/1196240aa7eb22a067fcf732af298f0e.jpg",
+    
+    "productName": "Double Breasted Wool Coat",
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/13/c3/32/13c33277086d89bb49d47deea3dd7ff1.jpg",
+    
+    "productName": "Reverse Weave Hoodie",
+    }
+];
+
 }
 
  

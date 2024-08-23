@@ -147,11 +147,34 @@ class HomeScreen extends StatelessWidget {
              itemCount: DummyDb.brandData.length,
             ),
             //#8
-            // GridView.builder(
-            //   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
-            //   itemBuilder: (context, index) =>Column(
-
-            //   ),),
+            SizedBox(
+              height: 600,
+              child: GridView.builder(
+                itemCount: 6,
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  // mainAxisExtent: 320,         
+                  mainAxisSpacing: 6,
+                  crossAxisCount: 2), 
+                itemBuilder: (context, index) =>Column(
+                    children: [
+                       Center(
+                    child: Image.network(
+                      DummyDb.data[index]["imageUrl"],
+                      height: 170,
+                      alignment: Alignment.center,
+                    ),
+                  ),
+                  Text(
+                    DummyDb.data[index]["productName"],
+                   // overflow: TextOverflow.ellipsis,
+              
+                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                  ),
+                    ],
+                ),),
+            ),
             
 
             SizedBox(

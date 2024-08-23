@@ -9,7 +9,7 @@ class HorizontalGrid extends StatelessWidget {
     this.crossAxisCount = 3,
     this.isPriceVisible = true,
     
-    
+    this.gridHeight =205,
     this.height = 75,
     required this.datalist
   });
@@ -19,14 +19,14 @@ class HorizontalGrid extends StatelessWidget {
   final int crossAxisCount;
   final bool isPriceVisible;
   
- 
+  final double gridHeight;
   final double height;
   final List datalist;
   
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: isCircle ? 205 : (height+45),
+      height: isCircle ? gridHeight : (height+45),
       child: GridView.builder(
         padding: EdgeInsets.only(bottom: 10),
         shrinkWrap: true,
@@ -35,6 +35,7 @@ class HorizontalGrid extends StatelessWidget {
         //padding: EdgeInsets.symmetric(horizontal: 5),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             mainAxisExtent: isCircle ? 100 : (height+45),
+            
             crossAxisCount: crossAxisCount),
         itemBuilder: (context, index) => Container(
           margin: EdgeInsets.only(            
@@ -59,7 +60,7 @@ class HorizontalGrid extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: Colors.blue,
                     shape: isCircle ? BoxShape.circle : BoxShape.rectangle,
-                    image: DecorationImage(image: AssetImage(datalist[index]["image"]),fit: BoxFit.cover)),
+                    image: DecorationImage(image: NetworkImage(datalist[index]["image"]),fit: BoxFit.cover)),
               ),
               Text(
                 datalist[index]["data"],
