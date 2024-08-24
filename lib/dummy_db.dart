@@ -687,6 +687,66 @@ static const List data = [
     }
 ];
 
+static const List cartScreenData =[
+  {
+    "imageUrl": "https://i.pinimg.com/564x/11/96/24/1196240aa7eb22a067fcf732af298f0e.jpg",
+    
+    "productName": "Double Breasted Wool Coat",
+    "size" : "30",
+    "prevPrice": "6999",
+    "newPrice": "₹5999",
+    "discount": "14% off",
+    "rating": 3
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/564x/4f/49/01/4f490178bf9d3c111b0ded43b0abd5f7.jpg",
+   
+    "productName": "Oxford Button-Down Shirt",
+    "size" : "32",
+    "prevPrice": "5999",
+    "newPrice": "₹4999",
+    "discount": "17% off",
+    "rating": 4
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/564x/e6/ae/8d/e6ae8d4522d44d70ba54c3c330d3f756.jpg",
+  
+    "productName": "Merino Wool V-Neck Sweater",
+    "size" : "30",
+    "prevPrice": "799",
+    "newPrice": "₹599",
+    "discount": "25% off",
+    "rating": 5
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/564x/a1/75/1a/a1751a68d755b44e96feb2418f266db1.jpg",
+    "productName": "Slim Fit Stretch Blazer",
+    "size" : "30",
+    "prevPrice": "999",
+    "newPrice": "₹849",
+    "discount": "15% off",
+    "rating": 4
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/564x/68/0a/51/680a5191fbc1ddb9345e1db02d9dd4f7.jpg",
+    "productName": "A-Line Mini Skirt",
+    "size" : "30",
+    "prevPrice": "1999",
+    "newPrice": "₹1499",
+    "discount": "25% off",
+    "rating": 3
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/564x/ec/a9/2b/eca92bd11be18b6519399bb2c9e1086b.jpg",
+    "productName": "Ruffle Detail Midi Dress",
+    "size" : "30",
+    "prevPrice": "3499",
+    "newPrice": "₹2499",
+    "discount": "29% off",
+    "rating": 4
+  }
+];
+
 }
 
  
