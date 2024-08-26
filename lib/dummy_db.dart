@@ -656,6 +656,71 @@ static const List categoriesScreenData3 = [
 
     
 ];
+
+static const List categoriesScreenData4= [
+  {
+    "data" : "fashion" ,
+    "image" : "https://i.pinimg.com/564x/82/95/f3/8295f3bd7a25ad3b30830d75e2e65d5d.jpg"
+  },
+  {
+    "data" : "Appliances" ,
+    "image" : "https://i.pinimg.com/564x/eb/d8/4a/ebd84aee9bd1feddce359d9803236f4b.jpg"
+  },
+  {
+    "data" : "Mobile" ,
+    "image" : "https://i.pinimg.com/564x/a1/91/59/a191599384cb6a36d10514661547f7be.jpg"
+  },
+ 
+  {
+    "data" : "Electronics" ,
+    "image" : "https://i.pinimg.com/564x/8c/db/e1/8cdbe123010c380e20f264a8fdd57938.jpg"
+  },
+  {
+    "data" : "Home" ,
+    "image" : "https://i.pinimg.com/564x/52/27/5a/52275a069b1c6943d91d5db79c1e400e.jpg"
+  },
+  {
+    "data" : "Furniture" ,
+    "image" : "https://i.pinimg.com/564x/e9/1d/9c/e91d9cf5b2211c6535d0dc8f7d480df5.jpg"
+  },
+  {
+    "data" : "Beauty & wellness" ,
+    "image" : "https://i.pinimg.com/564x/0c/49/3d/0c493d3325efa7f453fe783d40815e89.jpg"
+  },
+  {
+    "data" : "Food " ,
+    "image" : "https://i.pinimg.com/564x/2b/64/e1/2b64e15ac11687bb3074b9f7abc87edd.jpg"
+  },
+  {
+    "data" : "Sports" ,
+    "image" : "https://i.pinimg.com/564x/6e/aa/48/6eaa48805969538ded9edd2b3f94153e.jpg"
+  },
+  {
+    "data" : "Travel" ,
+    "image" : "https://i.pinimg.com/736x/05/ce/1e/05ce1e9333c9c6b09604bc7bd96496ee.jpg"
+  },
+  {
+    "data" : "gift card" ,
+    "image" : "https://i.pinimg.com/564x/89/77/a1/8977a10ff8665d074fd3aecdf02cbf9c.jpg"
+  },
+   {
+    "data" : "Bikes" ,
+    "image" : "https://i.pinimg.com/564x/ad/cc/58/adcc58575b830f8f01832b016ac2a3c3.jpg"
+  },
+   {
+    "data" : "Medicines" ,
+    "image" : "https://i.pinimg.com/564x/e5/5f/d9/e55fd9d0e1b9db8ad65fd049ee5d7b55.jpg"
+  },
+   {
+    "data" : "gift card" ,
+    "image" : "https://i.pinimg.com/564x/89/77/a1/8977a10ff8665d074fd3aecdf02cbf9c.jpg"
+  },
+   {
+    "data" : "Bikes" ,
+    "image" : "https://i.pinimg.com/564x/ad/cc/58/adcc58575b830f8f01832b016ac2a3c3.jpg"
+  },
+];
+
 static const List data = [
  {
    "imageUrl": "https://i.pinimg.com/564x/11/96/24/1196240aa7eb22a067fcf732af298f0e.jpg",

@@ -39,6 +39,7 @@ class CategoriesScreen extends StatelessWidget {
                 CircleAvatar(
                   radius: 30,
                   backgroundColor: Colors.amber,
+                  backgroundImage: NetworkImage("https://i.pinimg.com/564x/71/e5/63/71e563b3c2839eafd3bad0eae1694b48.jpg"),
                 ),
                 Text("For You"),
                 Container(
@@ -56,12 +57,13 @@ class CategoriesScreen extends StatelessWidget {
                               CircleAvatar(
                                 radius: 30,
                                 backgroundColor: Colors.amber,
+                                backgroundImage: NetworkImage(DummyDb.categoriesScreenData4[index]["image"]),
                               ),
-                              Text("xcvbnm")
+                              Text(DummyDb.categoriesScreenData4[index]["data"])
                             ],
                           ),
                       separatorBuilder: (context, index) => Divider(),
-                      itemCount: 15),
+                      itemCount: DummyDb.categoriesScreenData4.length),
                 )
               ],
             ),
